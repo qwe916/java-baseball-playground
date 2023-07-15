@@ -1,0 +1,17 @@
+- 3자리수 만들기(NumberGenerator)
+  - 1 ~ 9 사이의 수 랜덤 생성(numberGenerate)
+  - 이미 있는 수 판별(judgeExistNumber)
+  - 3자리 랜덤 수 생성(생성자를 통해) (예상 x)
+- 입력받은 수 검증(PlayerNumbersJudgement)
+  - 3자리수인지 확인
+  - 1 ~ 9 사이의 수인지 확인
+  - 중복된 수가 있는지 확인
+  - 잘못된 수를 입력한 경우 다시 입력받기 (main 함수에서 try~catch 문으로)
+- 입력받은 볼과 컴퓨터가 생성한 볼 검증(Judgement)
+  - 컴퓨터 볼들과 플레이어가 입력한 볼들을 비교(judge)
+  - 볼을 하나하나 검증 하여 검증결과에 맞는 strike와 ball 수 증가시킴(judgeBall) (예상 x)
+- 하나씩 볼 검증(BallJudge) (예상 x)
+  - 입력받은 볼과 컴퓨터의 볼의 위치와 값이 같으면 strike
+  - 입력받은 볼의 위치는 다르나 값이 컴퓨터의 볼의 값들 중 같은게 있으면 Ball
+  - 위치와 값 모두 해당되는게 없으면 nothing
+
